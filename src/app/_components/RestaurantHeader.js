@@ -9,6 +9,9 @@ const RestaurantHeader = () => {
         </div>
         <ul>
           <li>
+            Go back to
+          </li>
+          <li>
             <Link href="/">Home</Link>
           </li>
           <li>
