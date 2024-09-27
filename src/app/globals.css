@@ -7,7 +7,7 @@ h1{
   color: red;
 }
 
-.a{
+.p{
   display: flex;
   justify-content: center;
   color: seagreen;
@@ -15,11 +15,13 @@ h1{
   font-weight: 800;
 }
 
-.Link{
+.linkdiv{
   display: flex;
   justify-content: center;
-  font-size: 30px;
-  color: blue;
+}
+
+.Link{
+  max-width: 300px;
 }
 
 .input-wrapper{

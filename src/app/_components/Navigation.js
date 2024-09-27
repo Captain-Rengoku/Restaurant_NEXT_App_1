@@ -5,12 +5,12 @@ import React from "react";
 const Navigation = () => {
   return (
     <div>
-        <a className="a">Click the Image</a>
-          <Link className="Link" href="/restaurant">
-            <div>
-                <Image src="/food.png" width={300} height={300} alt="App Logo"/>
-            </div>
-          </Link>
+      <p className="p">Click the Image</p>
+      <div className="linkdiv">
+        <Link className="Link" href="/restaurant">
+          <Image src="/food.png" width={300} height={300} alt="App Logo" />
+        </Link>
+      </div>
     </div>
   );
 };
